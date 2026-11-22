@@ -145,7 +145,7 @@ export const FEATURED_PROJECTS: Project[] = [
       'Real-time compliance score calculation and KPI overview dashboard',
     ],
     tags: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Risk Analytics', 'Dashboard'],
-    image: '/src/assets/images/project_compliance_compass_1794045522098.jpg',
+   image: '/src/assets/images/project_compliance_compass_1794045522098.jpg',
     liveUrl: 'https://compliance-compass-web.vercel.app/',
     githubUrl: 'https://github.com/sawairamaryam837-spec/Compliance-Compass22',
   },
