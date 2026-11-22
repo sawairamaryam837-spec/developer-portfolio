@@ -145,120 +145,112 @@ export const FEATURED_PROJECTS: Project[] = [
       'Real-time compliance score calculation and KPI overview dashboard',
     ],
     tags: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Risk Analytics', 'Dashboard'],
-   image: '/src/assets/images/project_compliance_compass_1794045522098.jpg',
+    image: new URL('../assets/images/project_compliance_compass_1794045522098.jpg', import.meta.url).href,
     liveUrl: 'https://compliance-compass-web.vercel.app/',
     githubUrl: 'https://github.com/sawairamaryam837-spec/Compliance-Compass22',
   },
 
+  {
+    id: 'literary-haven',
+    number: '02',
+    title: 'Literary Haven',
+    category: 'E-commerce Platform',
+    tagline: 'Discover Books. Explore Ideas. Find Your Next Read.',
+    description:
+      'A modern online bookstore offering a wide collection of books across multiple categories, including fiction, technology, computer science, business, psychology, and literature.',
+    overview:
+      'Literary Haven is a premium online bookstore designed to make book discovery and shopping easy. It features curated book collections, featured titles, bestsellers, new arrivals, category-based browsing, and a personalized reading experience.',
+    keyFeatures: [
+      'Extensive book collection with multiple categories and genres',
+      'Featured books, bestsellers, and new arrivals sections',
+      'Category-based book browsing and discovery',
+      'Book ratings, pricing, and product details',
+      'Add-to-cart shopping functionality',
+      'Newsletter subscription for new releases and reading lists',
+      'Responsive and user-friendly bookstore interface',
+    ],
+    tags: [
+      'E-commerce',
+      'Online Bookstore',
+      'Book Catalog',
+      'Shopping Cart',
+      'Responsive Design',
+      'Product Discovery'
+    ],
+    image: new URL('../assets/images/iterary-haven-main.png', import.meta.url).href,
+    liveUrl: 'https://literary-haven-main11.vercel.app/',
+    githubUrl: 'https://github.com/sawairamaryam837-spec/literary-haven-main',
+  },
 
+  {
+    id: 'dreamscape-worlds',
+    number: '03',
+    title: 'Dreamscape Worlds',
+    category: 'Creative Storytelling Platform',
+    tagline: 'An Animated Universe of Stories, Characters & Imagination',
+    description:
+      'An immersive anime-inspired storytelling platform featuring animated characters, cinematic short stories, video collections, digital artwork, wallpapers, and relaxing ambient experiences.',
+    overview:
+      'Dreamscape Worlds is a creative digital universe where visitors can explore unique characters, discover animated stories, watch cinematic videos, browse beautiful artwork, and download wallpapers. The platform brings together storytelling, anime-inspired visuals, music, and immersive experiences in one interactive website.',
+    keyFeatures: [
+      'Interactive character showcase featuring Yuna, Kai, Mio, and Haru',
+      'Animated stories and cinematic video collections',
+      'Artwork gallery with category-based filtering',
+      'Downloadable desktop and mobile wallpapers',
+      'Story playlists and music experiences',
+      'Rainy Window ambient experience and Rain Mode',
+      'Explore Stories and Watch Videos sections',
+      'Responsive and visually immersive user interface',
+    ],
+    tags: [
+      'Creative Web Design',
+      'Anime',
+      'Storytelling',
+      'Interactive Gallery',
+      'Video Experience',
+      'Responsive Design',
+    ],
+    image: new URL('../assets/images/dreamscape_worlds.png', import.meta.url).href,
+    liveUrl: 'https://dreamscape-worlds3478.vercel.app/',
+    githubUrl: 'https://github.com/sawairamaryam837-spec/dreamscape-worlds3478',
+  },
 
-{
-  id: 'literary-haven',
-  number: '02',
-  title: 'Literary Haven',
-  category: 'E-commerce Platform',
-  tagline: 'Discover Books. Explore Ideas. Find Your Next Read.',
-  description:
-    'A modern online bookstore offering a wide collection of books across multiple categories, including fiction, technology, computer science, business, psychology, and literature.',
-  overview:
-    'Literary Haven is a premium online bookstore designed to make book discovery and shopping easy. It features curated book collections, featured titles, bestsellers, new arrivals, category-based browsing, and a personalized reading experience.',
-  keyFeatures: [
-    'Extensive book collection with multiple categories and genres',
-    'Featured books, bestsellers, and new arrivals sections',
-    'Category-based book browsing and discovery',
-    'Book ratings, pricing, and product details',
-    'Add-to-cart shopping functionality',
-    'Newsletter subscription for new releases and reading lists',
-    'Responsive and user-friendly bookstore interface',
-  ],
-  tags: [
-    'E-commerce',
-    'Online Bookstore',
-    'Book Catalog',
-    'Shopping Cart',
-    'Responsive Design',
-    'Product Discovery'
-  ],
-  image: '/src/assets/images/iterary-haven-main.png',
-  liveUrl: 'https://literary-haven-main11.vercel.app/',
-  githubUrl: 'https://github.com/sawairamaryam837-spec/literary-haven-main',
-},
-
-
-
-
-
-{
-  id: 'dreamscape-worlds',
-  number: '03',
-  title: 'Dreamscape Worlds',
-  category: 'Creative Storytelling Platform',
-  tagline: 'An Animated Universe of Stories, Characters & Imagination',
-  description:
-    'An immersive anime-inspired storytelling platform featuring animated characters, cinematic short stories, video collections, digital artwork, wallpapers, and relaxing ambient experiences.',
-  overview:
-    'Dreamscape Worlds is a creative digital universe where visitors can explore unique characters, discover animated stories, watch cinematic videos, browse beautiful artwork, and download wallpapers. The platform brings together storytelling, anime-inspired visuals, music, and immersive experiences in one interactive website.',
-  keyFeatures: [
-    'Interactive character showcase featuring Yuna, Kai, Mio, and Haru',
-    'Animated stories and cinematic video collections',
-    'Artwork gallery with category-based filtering',
-    'Downloadable desktop and mobile wallpapers',
-    'Story playlists and music experiences',
-    'Rainy Window ambient experience and Rain Mode',
-    'Explore Stories and Watch Videos sections',
-    'Responsive and visually immersive user interface',
-  ],
-  tags: [
-    'Creative Web Design',
-    'Anime',
-    'Storytelling',
-    'Interactive Gallery',
-    'Video Experience',
-    'Responsive Design',
-  ],
-  image: '/src/assets/images/dreamscape_worlds.png',
-  liveUrl: 'https://dreamscape-worlds3478.vercel.app/',
-  githubUrl: 'https://github.com/sawairamaryam837-spec/dreamscape-worlds3478',
-},
-
-
-
-{
-  id: 'nexus-apex-systems',
-  number: '04',
-  title: 'Nexus AI Systems',
-  category: 'Enterprise AI Automation Platform',
-  tagline: 'Replacing Sales Teams with Intelligent AI Systems',
-  description:
-    'An enterprise AI automation platform designed to automate sales operations, lead qualification, AI-powered calling, customer follow-ups, CRM management, and revenue workflows.',
-  overview:
-    'Nexus AI Systems is an intelligent business automation platform that helps organizations streamline their sales and revenue operations. It combines AI sales agents, voice calling agents, appointment scheduling, CRM automation, marketing automation, and custom AI solutions into one integrated operating system.',
-  keyFeatures: [
-    'AI-powered sales agents for lead qualification and customer engagement',
-    'AI calling agents for automated voice conversations and follow-ups',
-    'Automated appointment scheduling and meeting management',
-    'CRM automation and customer data management',
-    'Workflow and marketing automation',
-    'AI chatbots for customer support and lead conversion',
-    'Executive dashboard with revenue analytics and performance tracking',
-    'ROI calculator and business performance insights',
-    'CRM and telephony integrations',
-    'Interactive AI solution finder and knowledge assistant',
-  ],
-  tags: [
-    'AI Automation',
-    'Artificial Intelligence',
-    'React',
-    'TypeScript',
-    'Tailwind CSS',
-    'CRM Automation',
-    'AI Agents',
-    'SaaS Platform',
-  ],
-  image: '/src/assets/images/nexus_apex_systems.png',
-  liveUrl: 'https://nexus-system89.vercel.app/',
-  githubUrl: 'https://github.com/sawairamaryam837-spec/nexus-apex-systems',
-},
+  {
+    id: 'nexus-apex-systems',
+    number: '04',
+    title: 'Nexus AI Systems',
+    category: 'Enterprise AI Automation Platform',
+    tagline: 'Replacing Sales Teams with Intelligent AI Systems',
+    description:
+      'An enterprise AI automation platform designed to automate sales operations, lead qualification, AI-powered calling, customer follow-ups, CRM management, and revenue workflows.',
+    overview:
+      'Nexus AI Systems is an intelligent business automation platform that helps organizations streamline their sales and revenue operations. It combines AI sales agents, voice calling agents, appointment scheduling, CRM automation, marketing automation, and custom AI solutions into one integrated operating system.',
+    keyFeatures: [
+      'AI-powered sales agents for lead qualification and customer engagement',
+      'AI calling agents for automated voice conversations and follow-ups',
+      'Automated appointment scheduling and meeting management',
+      'CRM automation and customer data management',
+      'Workflow and marketing automation',
+      'AI chatbots for customer support and lead conversion',
+      'Executive dashboard with revenue analytics and performance tracking',
+      'ROI calculator and business performance insights',
+      'CRM and telephony integrations',
+      'Interactive AI solution finder and knowledge assistant',
+    ],
+    tags: [
+      'AI Automation',
+      'Artificial Intelligence',
+      'React',
+      'TypeScript',
+      'Tailwind CSS',
+      'CRM Automation',
+      'AI Agents',
+      'SaaS Platform',
+    ],
+    image: new URL('../assets/images/nexus_apex_systems.png', import.meta.url).href,
+    liveUrl: 'https://nexus-system89.vercel.app/',
+    githubUrl: 'https://github.com/sawairamaryam837-spec/nexus-apex-systems',
+  },
 
   {
     id: 'developer-portfolio',
@@ -277,10 +269,11 @@ export const FEATURED_PROJECTS: Project[] = [
       'Performance-tuned score with zero-layout shift responsive behavior',
     ],
     tags: ['React.js', 'Motion', 'Dark Aesthetics', 'Glassmorphism', 'TypeScript'],
-    image: '/src/assets/images/project_developer_portfolio_1794045523030.jpg',
+    image: new URL('../assets/images/project_developer_portfolio_1794045523030.jpg', import.meta.url).href,
     liveUrl: 'https://portfolio11117.vercel.app/',
     githubUrl: 'https://github.com/sawairamaryam837-spec/portfolio11117',
   },
+
   {
     id: 'cert-of-things',
     number: '06',
@@ -298,80 +291,78 @@ export const FEATURED_PROJECTS: Project[] = [
       'Fast responsive search across remote and hybrid opportunities',
     ],
     tags: ['React', 'Node.js', 'Tailored Forms', 'Interactive Application Flow', 'Tailwind CSS'],
-    image: '/src/assets/images/project_certofthings_1794045522503.jpg',
+    image: new URL('../assets/images/project_certofthings_1794045522503.jpg', import.meta.url).href,
     liveUrl: 'https://internship-for-student-12.vercel.app/',
     githubUrl: 'https://github.com/sawairamaryam837-spec/internship-for-student-',
   },
 
-{
-  id: 'humanify-ai-suite',
-  number: '05',
-  title: 'Humanify AI Suite',
-  category: 'AI SaaS Platform',
-  tagline: 'Transform Your Writing Instantly',
-  description:
-    'A premium AI-powered writing platform featuring six tools to humanize, paraphrase, simplify, summarize, change tone, and fix grammar.',
-  overview:
-    'A modern AI writing SaaS platform built with a premium purple-and-white visual identity, smooth animations, responsive layouts, and interactive writing interfaces.',
-  keyFeatures: [
-    'AI Humanizer for natural and human-like writing',
-    'Paraphraser, Tone Changer, and Text Simplifier',
-    'AI Summarizer and Grammar Fix tools',
-    'Modern purple-and-white SaaS interface',
-    'Responsive design with smooth animations',
-    'Interactive AI writing experience',
-  ],
-  tags: [
-    'Next.js',
-    'TypeScript',
-    'AI',
-    'SaaS',
-    'Tailwind CSS',
-    'Supabase',
-  ],
-  image: '/src/assets/images/12.jpg',
-  liveUrl: 'https://humanify-ai-suite-009.vercel.app/',
-  githubUrl: 'https://github.com/sawairamaryam837-spec/humanify-AI-Suite-',
-},
-{
-  id: 'noor-studio',
-  number: '07',
-  title: 'Noor Studio',
-  category: 'E-commerce Platform',
-  tagline: 'Elegant Fashion. Effortless Shopping.',
-  description:
-    'A modern women’s fashion e-commerce website featuring product collections, shopping cart, customer authentication, and order management.',
-  overview:
-    'Noor Studio is a stylish online fashion store designed to provide a seamless shopping experience. It features product categories, product variations, customer authentication, cart and checkout functionality, and an admin dashboard for managing products and orders.',
-  keyFeatures: [
-    'Modern women’s fashion e-commerce website',
-    'Product categories and collections',
-    'Shopping cart and checkout functionality',
-    'Customer registration and login',
-    'Admin dashboard for product management',
-    'Order management system',
-    'Responsive design for mobile and desktop',
-    'Firebase integration',
-  ],
-  tags: [
-    'React',
-    'TypeScript',
-    'Vite',
-    'Firebase',
-    'E-commerce',
-    'Tailwind CSS',
-    'Full Stack Development',
-  ],
-  image: '/src/assets/images/noor-studio.png',
-  liveUrl: 'https://noor-studio-o.vercel.app/',
-  githubUrl: 'https://github.com/sawairamaryam837-spec/store-Noor-store123',
-},
+  {
+    id: 'humanify-ai-suite',
+    number: '05',
+    title: 'Humanify AI Suite',
+    category: 'AI SaaS Platform',
+    tagline: 'Transform Your Writing Instantly',
+    description:
+      'A premium AI-powered writing platform featuring six tools to humanize, paraphrase, simplify, summarize, change tone, and fix grammar.',
+    overview:
+      'A modern AI writing SaaS platform built with a premium purple-and-white visual identity, smooth animations, responsive layouts, and interactive writing interfaces.',
+    keyFeatures: [
+      'AI Humanizer for natural and human-like writing',
+      'Paraphraser, Tone Changer, and Text Simplifier',
+      'AI Summarizer and Grammar Fix tools',
+      'Modern purple-and-white SaaS interface',
+      'Responsive design with smooth animations',
+      'Interactive AI writing experience',
+    ],
+    tags: [
+      'Next.js',
+      'TypeScript',
+      'AI',
+      'SaaS',
+      'Tailwind CSS',
+      'Supabase',
+    ],
+    image: new URL('../assets/images/12.jpg', import.meta.url).href,
+    liveUrl: 'https://humanify-ai-suite-009.vercel.app/',
+    githubUrl: 'https://github.com/sawairamaryam837-spec/humanify-AI-Suite-',
+  },
 
+  {
+    id: 'noor-studio',
+    number: '07',
+    title: 'Noor Studio',
+    category: 'E-commerce Platform',
+    tagline: 'Elegant Fashion. Effortless Shopping.',
+    description:
+      'A modern women’s fashion e-commerce website featuring product collections, shopping cart, customer authentication, and order management.',
+    overview:
+      'Noor Studio is a stylish online fashion store designed to provide a seamless shopping experience. It features product categories, product variations, customer authentication, cart and checkout functionality, and an admin dashboard for managing products and orders.',
+    keyFeatures: [
+      'Modern women’s fashion e-commerce website',
+      'Product categories and collections',
+      'Shopping cart and checkout functionality',
+      'Customer registration and login',
+      'Admin dashboard for product management',
+      'Order management system',
+      'Responsive design for mobile and desktop',
+      'Firebase integration',
+    ],
+    tags: [
+      'React',
+      'TypeScript',
+      'Vite',
+      'Firebase',
+      'E-commerce',
+      'Tailwind CSS',
+      'Full Stack Development',
+    ],
+    image: new URL('../assets/images/noor-studio.png', import.meta.url).href,
+    liveUrl: 'https://noor-studio-o.vercel.app/',
+    githubUrl: 'https://github.com/sawairamaryam837-spec/store-Noor-store123',
+  },
 ];
 
-
 export const WORK_PROCESS_STEPS: ProcessStep[] = [
- 
   // PROFESSIONAL EXPERIENCE
 
   {
