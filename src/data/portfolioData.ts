@@ -323,8 +323,8 @@ export const FEATURED_PROJECTS: Project[] = [
       'Supabase',
     ],
     image: new URL('../assets/images/12.jpg', import.meta.url).href,
-    liveUrl: 'https://humanify-ai-suite-009.vercel.app/',
-    githubUrl: 'https://github.com/sawairamaryam837-spec/humanify-AI-Suite-',
+    liveUrl: 'https://ai-writer6.vercel.app/',
+    githubUrl: 'https://github.com/sawairamaryam837-spec/AI-writer',
   },
 
   {
